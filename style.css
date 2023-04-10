@@ -36,6 +36,14 @@ h4 {
   color: #222;
 }
 
+/* ===============added h5 for products page================== */
+h5 {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/* =============================================== */
+
 h6 {
   font-weight: 700;
   font-size: 12px;
@@ -59,6 +67,13 @@ body {
   width: 100%;
 }
 
+/* =======================after adding blackM logo i adjusted the width========================== */
+.logo {
+  width: 94px;
+}
+
+/* ======================================================== */
+
 #icon {
   width: 24px;
   cursor: pointer;
@@ -70,7 +85,7 @@ body {
 /* ===================modified search bar======================== */
 
 
-
+/* ==============added margin left for blackM logo======================= */
 .searchbox {
   position: relative;
   height: 40px;
@@ -84,6 +99,8 @@ body {
   transform-style: preserve-3d;
   border-radius: 10px;
   background-color: #fff;
+  /* margin-left: 10px; */
+
 }
 
 .searchbox input {
@@ -582,9 +599,15 @@ footer .pay {
 
 /* ==================products page still under construction================= */
 
+
 #prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
+}
+
+#prodetails{
+  display: flex;
+  margin-top: 20px;
 }
 
 .small-img-group {
@@ -595,6 +618,23 @@ footer .pay {
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
 }
 
 

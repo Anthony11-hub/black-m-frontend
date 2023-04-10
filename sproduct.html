@@ -6,31 +6,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     </head>
 
     <body>
         <section id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <a href="#"><img src="img/black.png" class="logo" alt=""></a>
             <div class="searchbox" onclick="onClick(event)">
-                <input type="text" onfocus="onfocus()" onBlur="onBlur()">
+                <!-- added placeholder text -->
+                <input type="text" onfocus="onfocus()" onBlur="onBlur()" placeholder="Search product..">
                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
-            <div>
                 <ul id="navbar">
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <!-- <li><a href="about.html">About</a></li> -->
                     <!-- <li><a href="#">Contact</a></li> -->
                     <li><a href="#">Sell</a></li>
-                    <!-- <li><a href="cart.html">My products</a></li> -->
+                    <li><a href="#">Your products</a></li>
                     <li><a href="#">Logout</a></li>
                     <img src="img/header/moon1.png" alt="png" id="icon">
                     <a href="#"><i id="close" class="fa-solid fa-xmark"></i></a>
                 </ul>
                 
-            </div>
+          
             <div id="mobile">
                 <i id="bar" class="fa-solid fa-bars"></i>
 
@@ -39,7 +41,7 @@
 
         <section id="prodetails" class="section-p1">
             <div class="single-pro-image">
-                <img src="img/products/f1.jpg" width="100p%" id="mainImg" alt="">
+                <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
 
                 <div class="small-img-group">
                     <div class="small-img-col">
@@ -58,19 +60,104 @@
                         <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="single-pro-details">
+                <h6>Fashion</h6>
+                <h4>Mens's Fashion T-shirt</h4>
+                <h2>Ksh 700</h2>
+                <h4>Product Details</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum similique alias? Mollitia minima neque delectus nam consequatur obcaecati ea voluptatibus, aliquid dicta, sapiente provident aut debitis accusamus tenetur! Enim.</span>
+                <h5>Location: Almark</h5>
+                <h5>Contacts: +254315354344 </h5>
+                <h4>Safety Tips</h4>
+                <ul>
+                    <li>Meet in a public place</li>
+                    <li>Bring a friend</li>
+                    <li>Inspect product before buying</li>
+                    <li>Use secure payment methods</li>
+                    <li>Don't give out personal information</li>
+                    <li>Trust your instincts</li>
+                </ul>
+            </div>
+        </section>
 
-                <div class="single-pro-details">
-                    <h6>Home / T-Shirt</h6>
-                    <h4>Mens's Fashion T-shirt</h4>
-                    <h2>$139.00</h2>
+        <section id="product1" class="section-p1">
+            <h2>Similar products</h2>
+           
+            <!-- <p><a href="#">See All</a></p> -->
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <h5>addidas</h5>
+                        <span>Cartoon Astronaut T-shirt</span>
+                        <div class="star">
+                            <!-- <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> -->
+                        </div>
+                        <h4>Ksh 700</h4>
+                    </div>
+                    <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
                 </div>
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <h5>addidas</h5>
+                        <span>Cartoon Astronaut T-shirt</span>
+                        <div class="star">
+                            <!-- <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> -->
+                        </div>
+                        <h4>Ksh 700</h4>
+                    </div>
+                    <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
+                </div>
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <h5>addidas</h5>
+                        <span>Cartoon Astronaut T-shirt</span>
+                        <div class="star">
+                            <!-- <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> -->
+                        </div>
+                        <h4>Ksh 700</h4>
+                    </div>
+                    <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
+                </div>
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <h5>addidas</h5>
+                        <span>Cartoon Astronaut T-shirt</span>
+                        <div class="star">
+                            <!-- <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> -->
+                        </div>
+                        <h4>KSh 700</h4>
+                    </div>
+                    <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
+                </div>
+
             </div>
         </section>
 
 
         <footer class="section-p1">
             <div class="col">
-                <img class="logo" src="img/logo.png" alt="">
+                <img class="logo" src="img/black.png" alt="">
                 <h4>contact</h4>
                 <p><strong>Addresses:</strong> 00232 Ruiru, Kiambu</p>
                 <p><strong>Phone: </strong> +254715354384</p>
@@ -92,6 +179,7 @@
                 <a href="#">Privacy policy</a>
                 <a href="#">Terms & conditions</a>
                 <a href="#">Contact US</a>
+                <a href="#">Safety Tips</a>
             </div>
 
             <div class="col">
@@ -105,13 +193,13 @@
 
             <div class="col install">
                 <h4>Payment Methods</h4>
-                <p>Secured payment Gateways</p>
+                <p>pay to seller after product delivery</p>
                 <!-- <div class="row">
                     <img src="img/pay/app.jpg" alt="">
                     <img src="img/pay/play.jpg" alt="">
                 </div> -->
                 <!-- <img src="img/pay/pay.png" alt=""> -->
-                <img class="pay" src="img/pay/pay2.webp" alt="">
+                <img class="pay" src="img/pay/pay4.webp" alt="">
                 
             </div>
 
