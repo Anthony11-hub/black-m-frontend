@@ -93,7 +93,7 @@ body {
   margin: 10px auto;
   overflow: hidden;
   background: none;
-  color: #fff;
+  color: #465b52;
   perspective: 1800px;
   perspective-origin: 40% 40%;
   transform-style: preserve-3d;
@@ -1024,7 +1024,6 @@ footer .pay {
     width: 220px;
     margin: 5px;
   }
-
   
 }
 
@@ -1344,7 +1343,10 @@ footer .pay {
   }
 
   #header .logo {
-    display: none;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
   }
 
 }
