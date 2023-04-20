@@ -559,7 +559,14 @@ button.white {
 
 #product1 .pro img {
   width: 100%;
-  border-radius: 1px;
+  /* =========changes========== */
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  /* ========================== */
 }
 
 #product1 .pro .des {
@@ -1166,6 +1173,11 @@ footer .pay {
   #feature {
     margin-top: 20px;
   }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
 }
 
 
@@ -1277,6 +1289,11 @@ footer .pay {
     #prodetails .single-pro-details {
       width: 100%;
     }
+
+    #product1 .pro img {
+      border-radius: 1px;
+      height: 130px;
+    }
   
     /* =================================================== */
   
@@ -1320,6 +1337,11 @@ footer .pay {
     #prodetails .single-pro-details {
       width: 100%;
     }
+
+    #product1 .pro img {
+      border-radius: 1px;
+      height: 130px;
+    }
   
     /* =================================================== */
 
@@ -1349,6 +1371,11 @@ footer .pay {
     width: 30px;
   }
 
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
 }
 
 /* Pixel 5 */
@@ -1373,6 +1400,11 @@ footer .pay {
 
   #header .logo {
     display: none;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
   }
 
 }
@@ -1400,6 +1432,11 @@ footer .pay {
 
   #header .logo {
     display: none;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
   }
 
 }
@@ -1445,6 +1482,11 @@ footer .pay {
     width: 100%;
   }
 
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
 
   /* =================================================== */
 
@@ -1487,6 +1529,11 @@ footer .pay {
   #header .logo {
     display: none;
   }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
 }
 
 
@@ -1512,6 +1559,11 @@ footer .pay {
 
   #header .logo {
     display: none;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 100px;
   }
   
 }
