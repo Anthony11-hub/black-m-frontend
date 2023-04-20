@@ -560,7 +560,7 @@ button.white {
 #product1 .pro img {
   width: 100%;
   /* =========changes========== */
-  border-radius: 10px;
+  border-radius: 5px;
   height: 250px;
   display: flex;
   justify-content: center;
