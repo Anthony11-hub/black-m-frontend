@@ -65,6 +65,7 @@ p {
 
 body {
   width: 100%;
+  background-color: #F0F0F0;
 }
 
 /* =======================after adding blackM logo i adjusted the width========================== */
@@ -195,12 +196,6 @@ body {
   display: none;
 }
 
-/* #icon {
-  position: absolute;
-  left: 30px;
-  top: 250px;
-  width: 30px;
-} */
 
 #hero {
   background-image: url("img/hero5.jpg");
@@ -214,208 +209,6 @@ body {
   align-items: flex-start;
   justify-content: center;
   position: relative;
-}
-
-/* =====hero image updates for animations */
-.slider--1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80vh;
-  z-index: -99;
-  /* background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(40, 180, 133, 0.5)), to(rgba(79, 97, 42, 0.5))), url(img/header-image-1-medium.jpg); */
-  background-image:  url("img/hero5.jpg");
-  background-size: cover;
-  -webkit-animation: fade1 10s infinite;
-          animation: fade1 10s infinite;
-}
-
-.slider--2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80vh;
-  z-index: -99;
-  /* background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(40, 180, 133, 0.5)), to(rgba(79, 97, 42, 0.5))), url(img/header-image-1-medium.jpg); */
-  background-image:  url("img/hero6.jpg");
-  background-size: cover;
-  -webkit-animation: fade2 10s infinite;
-          animation: fade2 10s infinite;
-}
-
-.slider--3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80vh;
-  z-index: -99;
-  /* background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(40, 180, 133, 0.5)), to(rgba(79, 97, 42, 0.5))), url(img/header-image-1-medium.jpg); */
-  background-image:  url("img/hero7.jpg");
-  background-size: cover;
-  -webkit-animation: fade3 10s infinite;
-          animation: fade3 10s infinite;
-}
-
-
-.slider--4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80vh;
-  z-index: -99;
-  /* background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(40, 180, 133, 0.5)), to(rgba(79, 97, 42, 0.5))), url(img/header-image-1-medium.jpg); */
-  background-image:  url("img/hero4.png");
-  background-size: cover;
-  -webkit-animation: fade4 10s infinite;
-          animation: fade4 10s infinite;
-}
-
-@-webkit-keyframes fade1 {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fade1 {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fade2 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade2 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fade3 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade3 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fade4 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade4 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 /*  =================================================*/
@@ -447,6 +240,10 @@ body {
 
 .section-p1 {
   padding: 40px 80px;
+}
+
+.section-p2 {
+  padding: 6px 40px;
 }
 
 .section-m1 {
@@ -495,6 +292,7 @@ button.white {
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
+  background-color: #fff;
 }
 
 #feature .fe-box:hover {
@@ -512,32 +310,12 @@ button.white {
   border-radius: 4px;
   display: inline-block;
   color: #1a1a1a;
-  /* background-color: #fddde4; */
 }
-
-/* #feature .fe-box:nth-child(2) h6{
-  background-color: #cdebbc;
-}
-
-#feature .fe-box:nth-child(3) h6{
-  background-color: #d1e8f2;
-}
-
-#feature .fe-box:nth-child(4) h6{
-  background-color: #cdd4f8;
-}
-
-#feature .fe-box:nth-child(5) h6{
-  background-color: #f6dbf6;
-}
-
-#feature .fe-box:nth-child(6) h6{
-  background-color: #fff2e6;
-} */
 
 
 #product1 {
   text-align: center;
+  justify-content: left;
 }
 
 .pro {
@@ -551,7 +329,11 @@ button.white {
   margin: 15px 0;
   transition: 0.2s ease;
   position: relative;
+  background-color: #fff;
+  margin: 0 40px 50px 0;
 }
+
+/* ------------------------------- */
 
 #product1 .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
@@ -597,23 +379,12 @@ button.white {
   font-weight: 700;
   color: yellowgreen;
 }
-/* 
-#product1 .pro .cart {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color: #e8f6ea;
-  color: yellowgreen;
-  border: 1px solid #cce7d0;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-} */
+
 
 #product1 .pro-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
   padding-top: 20px;
   flex-wrap: wrap;
 }
@@ -750,6 +521,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #E3E6F3;
 }
 
 footer .col {
@@ -860,330 +632,14 @@ footer .pay {
 /* ========================================================== */
 /* ========================================================== */
 /* ===================MEDIA QUERIES======================== */
+/* Styles for all screen sizes */
 
+/* Your default styles go here */
 
-
-
-@media (max-width:799px) {
-  .section-p1 {
-    padding: 40px 40px;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #E3E6F3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-  }
-
-  #navbar li {
-    margin-bottom: 25px;
-  }
-
-  #navbar.active {
-    right: 0;
-  }
-
-  #mobile {
-    display: flex;
-    align-items: center;
-  }
-
-  #mobile i {
-    color: #1a1a1a;
-    font-size: 27px;
-    padding-left: 70px;
-  }
-
-  /* =================changed icon position ====================== */
-  #icon {
-    position: absolute;
-    left: 30px;
-    top: 290px;
-    width: 30px;
-  }
-
-  #close {
-    display: initial;
-    position: absolute;
-    top: 25px;
-    left: 30px;
-    color: #222;
-    font-size: 24px;
-  }
-
-  #hero {
-    height: 70vh;
-    background-position: top 30% right 30%;
-    padding: 0 80px;
-  }
-
-  #feature {
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  #feature .fe-box {
-    margin: 15px 15px;
-  }
-
-  #product1 .pro-container {
-    justify-content: center;
-  }
-
-  #product1 .pro {
-    width: 150px;
-    margin: 10px;
-  }
-
-  #banner {
-    height: 30vh;
-  }
-
-  #sm-banner .banner-box {
-    min-width: 100%;
-    height: 30vh;
-  }
-
-  #newsletter .form {
-    width: 70%;
-  }
-}
-
-
-/* =================added these for all screen sizes============================ */
-
-@media (max-width: 576px) {
-  #header {
-    padding: 5px 20px;
-  }
-
-  #hero {
-    padding: 0 20px;
-    background-position: 60%;
-  }
-
-
-  #feature .fe-box {
-    width: 150px;
-    margin: 5px;
-    margin-top: 20px;
-  }
-
-  #feature {
-    justify-content: space-between;
-  }
-
-  #product1 .pro {
-    margin: 5px;
-    width: 230px;
-  }
-  #header .logo {
-    display: none;
-  }
-    /* =============products details page================= */
-
-    #prodetails {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    #prodetails .single-pro-image {
-      width: 100%;
-      margin-right: 0px;
-    }
-  
-    #prodetails .single-pro-details {
-      width: 100%;
-    }
-  
-    /* =================================================== */
-}
-
-@media screen and (min-width: 577px) and (max-width: 767px) {
-  #header {
-    padding: 5px 20px;
-  }
-
-  #hero {
-    padding: 0 20px;
-    background-position: 60%;
-  }
-
-
-  #feature .fe-box {
-    width: 150px;
-    margin: 5px;
-    margin-top: 20px;
-  }
-
-
-  #product1 .pro {
-    width: 220px;
-    margin: 5px;
-  }
-  
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 991px){
-  #feature .fe-box{
-    width: 190px;
-    margin: 5px;
-  }
-  #feature {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  #feature .fe-box {
-    width: 130px;
-  }
-
-  #hero {
-    background-position: 50%;
-  }
-
-  #feature {
-    margin-top: 20px;
-  }
-}
-
-
-@media screen and (min-width: 1200px) {
-  #feature .fe-box {
-    width: 160px;
-  }
-
-  #feature {
-    margin-top: 20px;
-  }
-}
-
-
-
-
-/* =====================end============================== */
-
-
-@media (max-width: 912px) {
-  #mobile {
-    display: flex;
-    align-items: center;
-  }
-
-  #mobile i {
-    color: #1a1a1a;
-    font-size: 27px;
-    padding-left: 70px;
-  }
-
-  .section-p1 {
-    padding: 40px 40px;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #E3E6F3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-  }
-
-  #navbar li {
-    margin-bottom: 25px;
-  }
-
-  #navbar.active {
-    right: 0;
-  }
-
-  #icon {
-    position: absolute;
-    left: 30px;
-    top: 290px;
-    width: 30px;
-  }
-
-  #close {
-    display: initial;
-    position: absolute;
-    top: 25px;
-    left: 30px;
-    color: #222;
-    font-size: 24px;
-  }
-
-  #hero {
-    height: 70vh;
-    background-position: top 30% right 30%;
-    padding: 0 80px;
-  }
-
-  #feature {
-    justify-content: center;
-  }
-
-  #feature .fe-box {
-    margin: 15px 15px;
-  }
-
-  #product1 .pro-container {
-    justify-content: center;
-  }
-
-  #product1 .pro {
-    width: 150px;
-    margin: 10px;
-  }
-
-  #banner {
-    height: 30vh;
-  }
-
-  #sm-banner .banner-box {
-    min-width: 100%;
-    height: 30vh;
-  }
-
-  
-
-  #newsletter .form {
-    width: 70%;
-  }
-
-  #feature {
-    margin-top: 20px;
-  }
-
-  #product1 .pro img {
-    border-radius: 1px;
-    height: 130px;
-  }
-}
-
-
-
-@media (max-width: 477px) {
-  .section-p1 {
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  /* Styles for smartphones in portrait orientation go here */
+  /* .section-p1 {
     padding: 20px;
   }
 
@@ -1211,13 +667,6 @@ footer .pay {
   p {
     font-size: 15px;
   }
-
-
-
-  /* .logo {
-    width: 70px;
-  } */
-
 
   #mobile i {
     font-size: 20px;
@@ -1274,9 +723,978 @@ footer .pay {
     display: none;
   }
 
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  } */
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+  /* Styles for tablets in portrait orientation go here */
+
+  
+}
+
+/* Styles for screens between 481px and 767px */
+@media (min-width: 577px) and (max-width: 767px) {
+  /* Styles for tablets in portrait orientation go here */
+
+}
+
+/* Styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets in landscape orientation go here */
+
+}
+
+/* Styles for screens larger than 1024px */
+@media (min-width: 1024px) {
+  /* Styles for laptops and desktops go here */
+
+  
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+  /* Styles for large desktops go here */
+}
+
+/* Styles for screens larger than 1440px */
+@media (min-width: 1440px) {
+  /* Styles for high-resolution displays go here */
+  /* h1 {
+    font-size:45px;
+    line-height: 44px;
+  }
+
+  .logo {
+    width: 90px;
+    margin-left: -40px;
+  }
+
+  .searchbox {
+    max-width: 650px;
+    width: 4500px;
+    margin-left: 40px;
+  } */
+}
+
+
+/* @media screen and (max-width:799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 70px;
+  } */
+
+  /* =================changed icon position ====================== */
+  /* #icon {
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    width: 150px;
+    margin: 10px;
+  }
+
+  #banner {
+    height: 30vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #newsletter .form {
+    width: 70%;
+  }
+} */
+
+
+/* =================added these for all screen sizes============================ */
+@media screen and (min-width: 360px) and (max-width: 410px) {
+
+  #feature .fe-box {
+    width: 100px;
+    margin: 5px auto;;
+  }
+
+  #product1 .pro {
+    margin: 5px;
+    width: 150px;
+
+  }
+  .searchbox {
+    margin-left: 10px;
+  }
+
+  #feature {
+    margin-top: 70px;
+  }
+
+  #header .logo {
+    display: none;
+  }
+
+
+  /* #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+    margin-right: -50px;
+    margin-left:20px;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 20px;
+  }
+
+  #icon {
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature .fe-box {
+    width: 80px;
+    margin: 5px auto;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+  
+  h1 {
+    font-size: 25px;
+    line-height: 1.3;
+  }
+
+  .pro {
+    max-width: 500px;
+  }
+
+  #feature {
+    margin-top: 80px;
+  }
+  .searchbox {
+    margin-left: -70px;
+    margin-right: -60px;
+  }
+
+  #header .logo {
+    display: none;
+  }
+  
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  } */
+
+  
+}
+
+
+@media screen and (max-width: 414px) {
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+    margin-right: -50px;
+    margin-left:20px;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 20px;
+  }
+
+  #icon {
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    margin: 1px auto;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+  
+  h1 {
+    font-size: 25px;
+    line-height: 1.3;
+  }
+
+  .pro {
+    /* margin: 5px; */
+    max-width: 500px;
+    width: 200px;
+    /* width: 300px; */
+  }
+
+
+  #feature {
+    margin-top: 20px;
+  }
+  .searchbox {
+    margin-left: -70px;
+    margin-right: -60px;
+  }
+
+  #header .logo {
+    display: none;
+  }
+  
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 576px){
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 70px;
+  }
+
+  #icon {
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #feature .fe-box {
+    margin: 1px 1px;
+  }
+  
+  
+  #product1 .pro {
+    width: 150px;
+    margin: 2px;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #newsletter .form {
+    width: 70%;
+  }
+  
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 70px;
+  }
+
+  #icon {
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+  
+  #product1 .pro {
+    width: 150px;
+    margin: 5px;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #newsletter .form {
+    width: 70%;
+  }
+
+  .logo {
+    margin-left: -50px;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 70px;
+  }
+
+  #icon {
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro {
+    width: 150px;
+    margin: 5px;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #newsletter .form {
+    width: 70%;
+  }
+
+  .logo {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #feature .fe-box {
+    width: 130px;
+  }
+
+  #hero {
+    background-position: 50%;
+  }
+
+  #feature {
+    margin-top: 20px;
+  }
+
+  .logo {
+    margin-left: -50px;
+  }
+
+  .searchbox {
+    margin-left: 40px;
+  }
+
+  .feature {
+    width: 200px;
+  }
+
+  #product1 .pro {
+    margin: 5px;
+  }
+
+  
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+/* =====================end============================== */
+
+
+/* @media (max-width: 912px) {
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 27px;
+    padding-left: 70px;
+  }
+
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #icon {
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    width: 30px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    width: 150px;
+    margin: 10px;
+  }
+
+  #banner {
+    height: 30vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  
+
+  #newsletter .form {
+    width: 70%;
+  }
+
+  #feature {
+    margin-top: 20px;
+  }
+
+  #product1 .pro img {
+    border-radius: 1px;
+    height: 130px;
+  }
+} */
+
+
+
+/* @media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #header {
+    padding: 10px 30px;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: 60%;
+  }
+
+  #feature {
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  p {
+    font-size: 15px;
+  } */
+
+
+
+  /* .logo {
+    width: 70px;
+  } */
+
+
+  /* #mobile i {
+    font-size: 20px;
+    padding-left: 80px;
+
+  }
+
+  .searchbox button {
+    font-size: 1.1em;
+  }
+
+  #feature .fe-box {
+    width: 140px;
+    margin: 0 0 15px 0;
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #product1 .pro {
+    width: 200px;
+    margin: 5px;
+    max-width: 300px;
+
+  }
+
+  #product1 h2 {
+    font-size: 15px;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+
+  
+  #newsletter .form {
+    width: 100%;
+  }
+
+  footer .copyright {
+    text-align: start;
+  }
+
+  #header .logo {
+    display: none;
+  } */
+
     /* =============products details page================= */
 
-    #prodetails {
+    /* #prodetails {
       display: flex;
       flex-direction: column;
     }
@@ -1293,15 +1711,15 @@ footer .pay {
     #product1 .pro img {
       border-radius: 1px;
       height: 130px;
-    }
+    } */
   
     /* =================================================== */
   
 
-}
+/* } */
 
 /* Iphone XR */
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   #feature .fe-box {
     width: 120px;
     margin: 5px auto;;
@@ -1321,10 +1739,10 @@ footer .pay {
 
   #header .logo {
     display: none;
-  }
+  } */
     /* =============products details page================= */
 
-    #prodetails {
+    /* #prodetails {
       display: flex;
       flex-direction: column;
     }
@@ -1341,13 +1759,13 @@ footer .pay {
     #product1 .pro img {
       border-radius: 1px;
       height: 130px;
-    }
+    } */
   
     /* =================================================== */
 
-}
+/* } */
 
-@media (max-width: 412px) {
+/* @media (max-width: 412px) {
   #feature .fe-box {
     width: 120px;
     margin: 5px auto;;
@@ -1376,10 +1794,10 @@ footer .pay {
     height: 130px;
   }
 
-}
+} */
 
 /* Pixel 5 */
-@media (max-width: 393px) {
+/* @media (max-width: 393px) {
   #feature .fe-box {
     width: 100px;
     margin: 5px auto;;
@@ -1407,11 +1825,11 @@ footer .pay {
     height: 130px;
   }
 
-}
+} */
 
 
 /* Iphone 12 Pro */
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   #feature .fe-box {
     width: 100px;
     margin: 5px auto;;
@@ -1439,11 +1857,11 @@ footer .pay {
     height: 130px;
   }
 
-}
+} */
 
 
 /* Iphone SE */
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   #feature .fe-box {
     width: 100px;
     margin: 5px auto;;
@@ -1464,11 +1882,13 @@ footer .pay {
 
   #header .logo {
     display: none;
-  }
+  } */
+
+
 
   /* =============products details page================= */
 
-  #prodetails {
+  /* #prodetails {
     display: flex;
     flex-direction: column;
   }
@@ -1485,16 +1905,16 @@ footer .pay {
   #product1 .pro img {
     border-radius: 1px;
     height: 130px;
-  }
+  } */
 
 
   /* =================================================== */
 
-}
+/* } */
 
 
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   #header {
     padding: 5px 20px;
   }
@@ -1534,11 +1954,11 @@ footer .pay {
     border-radius: 1px;
     height: 130px;
   }
-}
+} */
 
 
 /* Galaxy fold */
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
   #feature .fe-box {
     width: 100px;
     margin: 5px auto;;
@@ -1566,7 +1986,7 @@ footer .pay {
     height: 100px;
   }
   
-}
+} */
 
 
 .safety {
