@@ -330,7 +330,7 @@ button.white {
   transition: 0.2s ease;
   position: relative;
   background-color: #fff;
-  margin: 0 40px 50px 0;
+  margin: 0 40px 70px 0;
 }
 
 /* ------------------------------- */
@@ -891,146 +891,41 @@ footer .pay {
 
 
 /* =================added these for all screen sizes============================ */
-@media screen and (min-width: 360px) and (max-width: 410px) {
-
-  #feature .fe-box {
-    width: 100px;
-    margin: 5px auto;;
-  }
-
-  #product1 .pro {
-    margin: 5px;
-    width: 150px;
-
-  }
-  .searchbox {
-    margin-left: 10px;
-  }
-
-  #feature {
-    margin-top: 70px;
-  }
-
-  #header .logo {
-    display: none;
-  }
-
-
-  /* #navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #E3E6F3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-  }
-
-  #navbar li {
-    margin-bottom: 25px;
-  }
-
-  #navbar.active {
-    right: 0;
-  }
-
-  #mobile {
-    display: flex;
-    align-items: center;
-    margin-right: -50px;
-    margin-left:20px;
-  }
-
-  #mobile i {
-    color: #1a1a1a;
-    font-size: 27px;
-    padding-left: 20px;
-  }
-
-  #icon {
-    position: absolute;
-    left: 10px;
-    top: 290px;
-    width: 30px;
-  }
-
-  #close {
-    display: initial;
-    position: absolute;
-    top: 25px;
-    left: 30px;
-    color: #222;
-    font-size: 24px;
-  }
-
-  #hero {
-    height: 70vh;
-    background-position: top 30% right 30%;
-    padding: 0 80px;
-  }
-
-  #feature .fe-box {
-    width: 80px;
-    margin: 5px auto;
-  }
-
+@media screen and (min-width: 290px) and (max-width: 320px) {
   h2 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.3;
   }
 
   h5 {
-    font-size: 28px;
+    font-size: 20px;
   }
   
   h1 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.3;
   }
 
-  .pro {
-    max-width: 500px;
-  }
-
-  #feature {
-    margin-top: 80px;
-  }
-  .searchbox {
-    margin-left: -70px;
-    margin-right: -60px;
-  }
-
-  #header .logo {
-    display: none;
-  }
-  
-  #prodetails {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #prodetails .single-pro-image {
-    width: 100%;
-    margin-right: 0px;
-  }
-
-  #prodetails .single-pro-details {
-    width: 100%;
+  #product1 .pro {
+    width: 100px;
+    margin: 5px;
   }
 
   #product1 .pro img {
-    border-radius: 1px;
-    height: 130px;
-  } */
+    height: 100px;
+  }
 
-  
+  #feature {
+    margin: 18px;
+
+    
+    /* width: 100px; */
+  }
 }
 
+@media screen and (max-width: 360px) {
+
+}
 
 @media screen and (max-width: 414px) {
 
@@ -1123,6 +1018,7 @@ footer .pay {
   #feature {
     margin-top: 20px;
   }
+
   .searchbox {
     margin-left: -70px;
     margin-right: -60px;
@@ -1150,8 +1046,6 @@ footer .pay {
     border-radius: 1px;
     height: 130px;
   }
-
-  
 }
 
 
@@ -1472,7 +1366,7 @@ footer .pay {
     margin-left: 40px;
   }
 
-  .feature {
+  #feature {
     width: 200px;
   }
 
@@ -1488,9 +1382,133 @@ footer .pay {
 
 }
 
+@media screen and (min-width: 376px) and (max-width: 390px) {
+  h2 {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  #product1 .pro {
+    width: 120px;
+    margin: 5px;
+  }
+
+  #product1 .pro img {
+    height: 100px;
+  }
+
+  #feature {
+    margin: 5px;
+    /* width: 150px; */
+    
+    /* width: 100px; */
+  }
+}
 
 
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  h2 {
+    font-size: 15px;
+    line-height: 1.3;
+  }
 
+  h5 {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  #product1 .pro {
+    width: 120px;
+    margin: 5px;
+  }
+
+  #product1 .pro img {
+    height: 100px;
+  }
+
+  #feature {
+    margin: 8px;
+    
+    /* width: 100px; */
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  h2 {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  #product1 .pro {
+    width: 150px !important;
+    margin: 10px;
+  }
+
+  #product1 .pro img {
+    height: 100px;
+  }
+
+  #feature {
+    margin: 8px;
+    
+    /* width: 100px; */
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+  h2 {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  #product1 .pro {
+    width: 120px !important;
+    margin: 10px;
+  }
+
+  #product1 .pro img {
+    height: 100px;
+  }
+
+  #feature {
+    margin: 5px;
+    width: 140px;
+    justify-content: center;
+    
+    /* width: 100px; */
+  }
+}
 /* =====================end============================== */
 
 
@@ -1861,9 +1879,13 @@ footer .pay {
 
 
 /* Iphone SE */
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
+  .section-p1 {
+    padding: 10px 10px;
+  }
+
   #feature .fe-box {
-    width: 100px;
+    width: 150px;
     margin: 5px auto;;
   }
 
@@ -1872,9 +1894,9 @@ footer .pay {
     width: 150px;
 
   }
-  .searchbox {
+  /* .searchbox {
     margin-left: 10px;
-  }
+  } */
 
   #feature {
     margin-top: 50px;
@@ -1882,13 +1904,13 @@ footer .pay {
 
   #header .logo {
     display: none;
-  } */
+  }
 
 
 
   /* =============products details page================= */
 
-  /* #prodetails {
+  #prodetails {
     display: flex;
     flex-direction: column;
   }
@@ -1905,12 +1927,12 @@ footer .pay {
   #product1 .pro img {
     border-radius: 1px;
     height: 130px;
-  } */
+  }
 
 
   /* =================================================== */
 
-/* } */
+}
 
 
 
@@ -1958,10 +1980,10 @@ footer .pay {
 
 
 /* Galaxy fold */
-/* @media (max-width: 280px) {
+/* @media screen and (min-width: 0px) and (max-width: 280px) {
   #feature .fe-box {
     width: 100px;
-    margin: 5px auto;;
+    margin: 5px auto;
   }
   
   #product1 .pro {
